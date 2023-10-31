@@ -98,7 +98,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: px;
+    gap: 14px;
 
     img{
         max-width: 570px;
@@ -222,6 +222,7 @@
                 max-width: 740px;
             }
         }
+        
     }
 
 
@@ -232,3 +233,47 @@
 iframe{
     width: 100%;
 }
+
+footer{
+    background-color: $black-normal;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 0;
+    gap: 24px;
+
+    .footer-icons{
+        display: flex;
+        gap: 16px;
+    }
+
+    p{
+        color: white;
+        text-align: center;
+    }
+
+    .footer-logo{
+        margin-bottom: 10px ;
+    }
+}
+
+// -- BOTÃO WHATSAPP -- BOTÃO WHATSAPP -- BOTÃO WHATSAPP -- BOTÃO WHATSAPP
+
+.btn-whats{
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 3;
+
+    img{
+        max-width: 74px;
+        transition:  transform .2s;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+
