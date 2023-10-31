@@ -267,6 +267,10 @@ img {
     max-width: 740px;
   }
 }
+iframe {
+  width: 100%;
+}
+
 body {
   background-color: #06121e;
   width: 100%;
