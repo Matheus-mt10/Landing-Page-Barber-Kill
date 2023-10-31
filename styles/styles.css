@@ -307,6 +307,14 @@ footer .footer-logo {
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 768px) {
+  .btn-whats {
+    right: 20px;
+  }
+  .btn-whats img {
+    max-width: 60px;
+  }
+}
 body {
   background-color: #06121e;
   width: 100%;

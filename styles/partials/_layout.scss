@@ -222,7 +222,6 @@
                 max-width: 740px;
             }
         }
-        
     }
 
 
@@ -273,6 +272,16 @@ footer{
 
         &:hover{
             transform: scale(1.1);
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn-whats{
+        right: 20px;
+        img{
+            max-width: 60px;
+            
         }
     }
 }
