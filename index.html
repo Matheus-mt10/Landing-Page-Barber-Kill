@@ -3,10 +3,14 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AOS - BIBLIOTECA DE ANIMAÇÕES -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
     <!-- CSS -->
     <link rel="stylesheet" href="styles/styles.css">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- SCRIPT AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Barbearia Kill</title>
  </head>
  <body>
@@ -14,7 +18,7 @@
         <header>
             <nav class="header-content container">
 
-                <div class="header-icons">
+                <div class="header-icons" data-aos="fade-down" data-aos-delay="400">
                     <a href="#">
                         <i class="fa-brands fa-instagram fa-2x"></i>
                     </a>
@@ -28,11 +32,18 @@
                     </a>
                 </div>
 
-                <div class="header-logo">
-                    <img src="assets/logo.svg" alt="">
+                <div class="header-logo" 
+                data-aos="fade-up" 
+                data-aos-delay="400" 
+                >
+                
+                    <img src="assets/logo.svg" alt=""
+                    data-aos="flip-up"
+                    data-aos-duration="3000"
+                    >
                 </div>
 
-                <div >
+                <div data-aos="fade-down" data-aos-delay="400" >
                     <a class="header-button" href="#">Agendar horário</a>
                 </div>
             </nav>
@@ -138,6 +149,8 @@
     >
         <img src="assets/whatssapp.svg" alt="Logo para o botão do Whatsapp">
     </a>
+
+    <script src="scripts.js"></script>
 
  </body>
  </html>
